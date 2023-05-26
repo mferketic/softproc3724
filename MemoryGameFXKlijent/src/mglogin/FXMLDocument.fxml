@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="178.0" prefWidth="314.0" styleClass="bgimg" stylesheets="@../CSS/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mglogin.FXMLDocumentController">
+   <children>
+      <TextField fx:id="korisnickoIme" layoutX="77.0" layoutY="20.0" prefHeight="30.0" prefWidth="160.0" promptText="Korisnicko Ime:" />
+      <PasswordField fx:id="sifraKorisnik" layoutX="77.0" layoutY="57.0" prefHeight="30.0" prefWidth="160.0" promptText="Sifra" />
+      <Button id="kreirajDK" fx:id="loginButton" layoutX="87.0" layoutY="100.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" text="Login"></Button>
+   </children>
+</AnchorPane>

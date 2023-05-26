@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/DomenskiObjekat/MemoryCard.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mglogin/MgLogin.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/JFX04.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/listener/GameStartListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgmenu/MgMenu.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgmenu/listener/PlayGameListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/DomenskiObjekat/GeneralDObject.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mglogin/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/listener/ShowCardListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/MgGame.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/DomenskiObjekat/Poruka.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/listener/CreateDKListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgutils/DatabaseUtilsImpl.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/Server_client/GenerickiTransferObjekatKorisnik.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgutils/DatabaseUtils.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mglogin/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgmenu/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/DomenskiObjekat/Korisnik.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/TransferObjekat/GenerickiTransferObjekat.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/CSS/stylesheet.css</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/JFX01.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/MgRegister.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mggame/listener/HideCardListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mglogin/JFX02.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgregister/listener/KorisnikRegistrationListener.java</file>
+            <file>file:/C:/Users/mario/Desktop/masters-degree/softverski_proces/moj/MemoryGameFXKlijent/src/mgmenu/JFX03.java</file>
+        </group>
+    </open-files>
+</project-private>

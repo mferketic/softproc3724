@@ -1,0 +1,2 @@
+Server.GenerickiKontrolerServer
+Server.Klijent

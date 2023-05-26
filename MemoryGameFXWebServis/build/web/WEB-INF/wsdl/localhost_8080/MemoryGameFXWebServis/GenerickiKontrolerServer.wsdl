@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://Server/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="GenerickiKontrolerServer" targetNamespace="http://Server/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://Server/" elementFormDefault="unqualified" targetNamespace="http://Server/" version="1.0">
+
+  <xs:element name="prijaviDK" type="tns:prijaviDK"/>
+
+  <xs:element name="prijaviDKResponse" type="tns:prijaviDKResponse"/>
+
+  <xs:complexType name="prijaviDK">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:generickiTransferObjekatKorisnik"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="generickiTransferObjekatKorisnik">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="gdo" type="tns:korisnik"/>
+      <xs:element minOccurs="0" name="tekst" type="tns:poruka"/>
+      <xs:element name="signal" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="nazivOperacije" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="korisnik">
+    <xs:complexContent>
+      <xs:extension base="tns:generalDObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idKorisnik" type="xs:long"/>
+          <xs:element minOccurs="0" name="ime" type="xs:string"/>
+          <xs:element minOccurs="0" name="korisnickoIme" type="xs:string"/>
+          <xs:element minOccurs="0" name="sifra" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType abstract="true" name="generalDObject">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="poruka">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="idKorisnika" type="xs:long"/>
+      <xs:element minOccurs="0" name="sadrzaj" type="xs:string"/>
+      <xs:element minOccurs="0" name="ulogovaniKorisnik" type="tns:korisnik"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="prijaviDKResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:generickiTransferObjekatKorisnik"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="prijaviDKResponse">
+    <wsdl:part element="tns:prijaviDKResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="prijaviDK">
+    <wsdl:part element="tns:prijaviDK" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="GenerickiKontrolerServer">
+    <wsdl:operation name="prijaviDK">
+      <wsdl:input message="tns:prijaviDK" name="prijaviDK">
+    </wsdl:input>
+      <wsdl:output message="tns:prijaviDKResponse" name="prijaviDKResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GenerickiKontrolerServerSoapBinding" type="tns:GenerickiKontrolerServer">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="prijaviDK">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="prijaviDK">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="prijaviDKResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GenerickiKontrolerServer">
+    <wsdl:port binding="tns:GenerickiKontrolerServerSoapBinding" name="GenerickiKontrolerServerPort">
+      <soap:address location="http://localhost:8080/MemoryGameFXWebServis/GenerickiKontrolerServer"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
